@@ -16,6 +16,7 @@ function App() {
           <Header />
           <Switch>
             <Route path="/" exact component={Posts} />
+            <Route path="/social-network-frontend/" exact component={Posts} />
             <Route path="/user/:id" component={User} />
             <Route path="/tag/:tag" component={Tag} />
             <Route component={NotFound} />
